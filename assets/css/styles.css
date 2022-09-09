@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    font-size: 14px;
+}
+
+.contact-form{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background-color: white;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: auto;
+    padding: 40px;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #ADD8E6;
+    color: #fff;
+}
+
+.contact-title{
+    margin-bottom: 10px;
+}
+
+.contact-form p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20x;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+button{
+    background: #ADD8E6;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
