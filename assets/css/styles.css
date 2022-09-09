@@ -12,10 +12,14 @@ body{
 .contact-box{
     background-color: white;
     display: flex;
+    border: 5px solid #ADD8E6;
+    border-radius: 10px;
+    box-shadow: .75em .75em 1em rgba(0, 0, 0, 0.5);
+    
 }
 
 .contact-left{
-    flex-basis: auto;
+    flex-basis: 80%;
     padding: 40px;
 }
 
@@ -28,6 +32,7 @@ body{
 
 .contact-title{
     margin-bottom: 10px;
+    border-bottom: 5px solid #ADD8E6;
 }
 
 .contact-form p{
@@ -61,4 +66,19 @@ button{
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: block;
+    color: orchid;
 }
