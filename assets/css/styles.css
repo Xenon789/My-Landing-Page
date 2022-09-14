@@ -10,12 +10,15 @@ body{
     font-size: 14px;
 }
 
+
+/* NAVBAR HERE */
 .logo{
     top: 0;
     left: 0;
     position: fixed;
     margin: 0;
-    height: 45px;
+    height: 66px;
+    border: 2px solid rgba(0,0,0,.2);
 }
 
 .navbar{
@@ -26,9 +29,11 @@ body{
     margin: 0;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 30px;
+    padding-left: 5%;
+    padding-right: 2.5%;
 }
 
 .menu-list{
@@ -46,9 +51,11 @@ body{
     text-decoration: none;
 }
 
+
+/* ABOUT SECTION HERE */
 .about-container{
-    width: 90%;
-    margin: 80px auto;
+    margin: 80px 25px;
+    align-items: center;
 }
 
 .about{
@@ -93,6 +100,12 @@ body{
     color: orange;
 }
 
+/* SKILLS SECTION */
+.skills {
+
+}
+
+/* CONTACT FORM HERE */
 .contact-form{
     width: 80%;
     margin: 50px auto;
@@ -106,14 +119,15 @@ body{
     box-shadow: .75em .75em 1em rgba(0, 0, 0, 0.5);
 }
 
-.contact-left{
-    flex-basis: 80%;
+.contact{
+    flex-basis: 100%;
     padding: 40px;
+    color: white;
 }
 
 .contact-title{
     margin-bottom: 10px;
-    border-bottom: 5px solid #ADD8E6;
+    border-bottom: 5px solid orange;
 }
 
 .contact-form p{
@@ -130,7 +144,7 @@ body{
     flex-basis: 45%;
 }
 
-input{
+.contact-box input{
     width: 100%;
     border: none;
     border-bottom: 1px solid orange;
@@ -139,7 +153,7 @@ input{
     background-color: #0f4a82;
 }
 
-button{
+.contact-box button{
     background: orange;
     width: 100px;
     border: none;
@@ -150,7 +164,7 @@ button{
     margin-top: 20px;
 }
 
-textarea{
+.contact-box textarea{
     width: 100%;
     outline: none;
     padding: 10px;
@@ -159,7 +173,7 @@ textarea{
     background-color: #0f4a82;
 }
 
-label{
+.contact-box label{
     margin-top: 6px;
     margin-bottom: 6px;
     display: block;
