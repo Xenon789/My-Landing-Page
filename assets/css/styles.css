@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -8,18 +7,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #0f4a82;
     font-size: 14px;
+    color: white;
 }
 
 
 /* NAVBAR HERE */
-.logo{
+/*.logo{
     top: 0;
     left: 0;
     position: fixed;
     margin: 0;
     height: 66px;
     border: 2px solid rgba(0,0,0,.2);
-}
+}*/
 
 .navbar{
     top: 0;
@@ -51,11 +51,15 @@ body{
     text-decoration: none;
 }
 
+.background-macbook{
+    width: 100%;
+}
 
 /* ABOUT SECTION HERE */
 .about-container{
-    margin: 80px 25px;
-    align-items: center;
+    display: flex;
+    margin: 80px;
+    justify-content: center;
 }
 
 .about{
@@ -64,11 +68,6 @@ body{
     border: 5px solid orange;
     border-radius: 10px;
     box-shadow: .75em .75em 1em rgba(0, 0, 0, 0.5);
-    align-items: center;
-}
-
-.background-macbook{
-    width: 100%;
 }
 
 .my-image {
@@ -179,4 +178,16 @@ body{
     display: block;
     color: white;
     font-size: large;
+}
+
+.contact-box input {
+    color: white;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
 }
