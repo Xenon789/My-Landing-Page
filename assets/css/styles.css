@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -33,11 +33,11 @@ body{
     align-items: center;
     font-size: 30px;
     padding-left: 5%;
-    padding-right: 2.5%;
 }
 
 .menu-list{
     list-style-type: none;
+    padding-right: 10%;
 }
 
 .menu-list li {
