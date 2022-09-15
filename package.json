@@ -1,0 +1,22 @@
+{
+  "name": "xensan",
+  "version": "1.0.0",
+  "description": "This will be my website portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xenon789/XenSan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xenon789/XenSan/issues"
+  },
+  "homepage": "https://github.com/Xenon789/XenSan#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
