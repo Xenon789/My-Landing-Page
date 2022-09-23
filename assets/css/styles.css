@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -51,19 +52,22 @@ body{
     text-decoration: none;
 }
 
+
 .background-macbook{
     width: 100%;
 }
 
-/* ABOUT SECTION HERE */
-.animate__animated.animate__fadeInDown {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
+.category h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 25px;
 }
+
+/* ABOUT SECTION HERE */
 .about-container{
     display: flex;
-    margin: 20px;
+    width: 80%;
+    margin: 50px auto;
     justify-content: center;
 }
 
@@ -76,9 +80,10 @@ body{
 }
 
 .my-image {
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid orange;
+    margin-left: 20px;
 }
 
 .about-left{
@@ -92,22 +97,56 @@ body{
 }
 
 .about-title{
+    font-size: 30px;
     margin-bottom: 10px;
-    color: white;
 }
 
-.after-title{
-    color: white;
+.about p{
+    width: 80%;
+    margin-bottom: 10px;
 }
 
 .before-name{
     color: orange;
+    margin-bottom: 0;
 }
 
-/* SKILLS SECTION */
+/* SKILLS SECTION 
 .skills {
 
+}*/
+
+/* WORK SECTION */
+.work {
+    margin: 50px auto;
+    width: 80%;
+    margin-bottom: 30px;
 }
+
+.work h2 {
+    padding-right: 15px;
+}
+
+.work-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-card {
+    height: 300px;
+    width: 100%;
+    border: 5px solid orange;
+}
+
+.card {
+    height: 300px;
+    width: 50%;
+    border: 5px solid orange;
+}
+
+
+
 
 /* CONTACT FORM HERE */
 .contact-form{
