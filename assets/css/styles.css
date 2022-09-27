@@ -50,6 +50,12 @@ body{
     opacity: 100%;
     color: white;
     text-decoration: none;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid orange
 }
 
 
@@ -134,15 +140,82 @@ body{
 }
 
 .main-card {
-    height: 300px;
+    background-color: white;
+    height: 500px;
     width: 100%;
     border: 5px solid orange;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.main-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-card-img {
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    vertical-align: top;
+}
+
+.main-card-label, .main-card-img {
+    opacity: 0.75;
+    transition: 0.6s;
+    transition-property: opacity;
+}
+
+.main-card-label:hover, .main-card-img:hover {
+    opacity: 1;
+}
+
+.main-card-label {
+    color: white;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    margin-bottom: -80px;
+}
+
+.main-card-img .main-card-label {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card-label {
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.card-label h3 p {
+    margin-top: 10px;
 }
 
 .card {
     height: 300px;
-    width: 50%;
+    width: 445px;
     border: 5px solid orange;
+}
+
+.one {
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+
+.two {
+    margin-bottom: 5px;
+}
+
+.three {
+    margin-right: 7px;
 }
 
 
